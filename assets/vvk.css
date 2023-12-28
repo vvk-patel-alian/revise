@@ -3,3 +3,8 @@
     font-size: medium;
     font-style: normal;
 }
+.push{
+    animation: both;
+    visibility: hidden;
+    stroke-width: 50px;
+}
