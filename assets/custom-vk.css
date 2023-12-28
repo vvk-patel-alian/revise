@@ -1,0 +1,92 @@
+/* Announcement Bar CSS */
+.utility-bar .announcement-bar p{
+  font-size:14px;
+  line-height:22.4px;
+  min-height: 0;
+  padding: 6px 0;
+}
+.utility-bar{
+  background-color:#F6EFE6;
+  border: none;
+}
+/*Header CSS  */
+.header{
+  max-width:100%;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+}
+.header .header__icon, .header .header__icon--cart .icon{
+  width:auto !important;
+  height:auto !important;
+  padding-right: 30px;
+}
+.header__icon:last-child, .header__icon--cart:last-child .icon {
+  padding-right: 0 !important;
+}
+.header__icons{
+  align-items: center;
+}
+.cart-count-bubble{
+  font-size: 12px;
+  bottom: 10px;
+  left: 15px;
+  height: 21px;
+  width: 21px;
+}
+.header--middle-center:not(.drawer-menu){
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.header__inline-menu, .header__icons, .header__heading, .header__heading-link {
+  grid-area: auto;
+}
+/* Banner CSS */
+.banner{
+  max-width: 1500px;
+  margin: auto;
+}
+.banner__media{
+  border-radius: 30px;
+}
+.banner__heading{
+  display:flex;
+  align-items: center;
+    justify-content: center;
+}
+
+
+    #animated-text {
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: type 6s steps(9, end) infinite, blink-caret 1.5s step-end infinite;
+      padding-left: 20px;
+    }
+
+    @keyframes type {
+      0%, 100% {
+        width: 0;
+      }
+      20%, 80% {
+        width: 120px;
+      }
+    }
+    @media (max-width: 989px) {
+      @keyframes type {
+        0%, 100% {
+          width: 0;
+        }
+        20%, 80% {
+          width: 100px;
+        }
+      }
+    }
+
+    @keyframes blink-caret {
+      0%, 100% {
+        border-right: 8px solid transparent;
+      }
+      50% {
+        border-right: 8px solid #fff;
+      }
+    }

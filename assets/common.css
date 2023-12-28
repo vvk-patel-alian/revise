@@ -1,0 +1,209 @@
+
+@font-face {       
+  font-family: 'Urbanist-Medium';   
+  src: url('https://cdn.shopify.com/s/files/1/0694/1972/9194/files/Urbanist-Medium.ttf?v=1698905382') format("truetype");    
+}
+@font-face {       
+  font-family: 'Urbanist-Regular';   
+  src: url('https://cdn.shopify.com/s/files/1/0694/1972/9194/files/Urbanist-Regular.ttf?v=1698905444') format("truetype");    
+}
+@font-face {       
+  font-family: 'Urbanist-Semibold';   
+  src: url('https://cdn.shopify.com/s/files/1/0694/1972/9194/files/Urbanist-SemiBold.ttf?v=1698905746') format("truetype");    
+}
+@font-face {       
+  font-family: 'Urbanist-Bold';   
+  src: url('https://cdn.shopify.com/s/files/1/0694/1972/9194/files/Urbanist-Bold.ttf?v=1698905826') format("truetype");    
+}
+@font-face {       
+  font-family: 'Trirong-Medium';   
+  src: url('https://cdn.shopify.com/s/files/1/0694/1972/9194/files/Trirong-Medium.ttf?v=1698929999') format("truetype");    
+}
+body{
+  letter-spacing:0;
+  color:#333;
+}
+
+ul,li,ol{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+
+h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5,p , h6,.h6{
+  letter-spacing:0;
+  margin:0;
+  padding:0;
+  font-family:"Urbanist-Medium";
+}
+p{
+  font-family: 'Urbanist-Regular';
+  font-weight:400;
+  line-height:28.8px;
+  color:#333;
+  font-size:18px;
+}
+
+h1,.h1{
+  font-size:64px;
+  line-height:normal;
+  font-family: 'Urbanist-Semibold';
+}
+h2,.h2{
+  font-size:50px;
+  line-height:65px;
+}
+h3,.h3{
+  font-size:36px;
+  line-height:47px;
+}
+h4,.h4{
+  font-size:26px;
+  line-height:33.8px;
+}
+h5,.h5{
+  font-size:24px;
+  line-height:38.4px;
+}
+h6,.h6{
+  font-size:22px;
+  line-height:35.2px;
+}
+.container_1500,.page-width{
+  max-width:1560px ;
+  margin:0 auto ;
+  padding:0 30px ;
+}
+
+.mt_100{
+  margin-top:100px;
+}
+
+.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after{
+  box-shadow:none;
+}
+
+.sub_text_arr {
+  font-family: "Urbanist-Medium";
+  color: #130C06 !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px; 
+}
+.sub_text_arr:before {
+  content: "";
+  background-image: url("https://cdn.shopify.com/s/files/1/0694/1972/9194/files/Active.svg?v=1698983691");
+  background-repeat: no-repeat;
+  width: 63px;
+  height: 2px;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative; 
+  top: 2px;
+}
+
+/* Responsive */
+@media(max-width:1199px){
+   .mt_100{
+  margin-top:75px;
+}
+  h1,.h1{
+    font-size:42px;
+    line-height:normal;
+  }
+  h2,.h2{
+    font-size:38px;
+    line-height:50px;
+  }
+}
+@media(max-width:991px){
+h1,.h1,h2,.h2{
+  font-size:40px;
+  line-height:52px;
+}
+  h4,.h4{
+  font-size:34px;
+  line-height:44px;
+}
+  .mt_100{
+  margin-top:50px;
+}
+}
+@media(max-width:989px){
+  .container_1820{
+  padding:0 20px ;
+}
+  .container_1500,.page-width{
+  padding:0 20px ;
+}
+}
+@media(max-width:767px){
+  .h0{
+  font-size:40px;
+  line-height:52px;
+}
+  h1,.h1,h2,.h2{
+  font-size:36px;
+  line-height:47px;
+}
+  h3,.h3{
+  font-size:38px;
+  line-height:50px;
+}
+   h4,.h4{
+  font-size:32px;
+  line-height:41px;
+}
+  .h7{
+  font-size:20px;
+  line-height:32px;
+}
+  p,.p{
+  font-size:18px;
+}
+
+}
+@media(max-width:575px){
+  .h0{
+  font-size:36px;
+  line-height:47px;
+}
+  h1,.h1,h2,.h2{
+  font-size:32px;
+  line-height:42px;
+}
+    h4,.h4{
+  font-size:30px;
+  line-height:39px;
+}
+}
+@media(max-width:480px){
+  .h0{
+  font-size:32px;
+  line-height:42px;
+}
+  h1,.h1,h2,.h2{
+  font-size:28px;
+  line-height:36px;
+}
+    h3,.h3{
+  font-size:36px;
+  line-height:47px;
+}
+    h4,.h4{
+  font-size:28px;
+  line-height:36px;
+}
+    .h7{
+  font-size:18px;
+  line-height:29px;
+}
+    p,.p{
+  font-size:16px;
+}
+ 
+}

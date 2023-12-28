@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experience Better",
+            "added-text": "Sex",
+            "heading_size": "h0"
+          }
+        },
+        "b60c02e9-0b32-452a-ae68-8064177a2f1f": {
+          "type": "text",
+          "settings": {
+            "text": "Australia’s Leading Online Adult Store",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Browse Our Store",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "b60c02e9-0b32-452a-ae68-8064177a2f1f",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom-class": "",
+        "image": "shopify:\/\/shop_images\/image_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "fbdf8431-e867-46c3-994c-83622d027fd0": {
+      "type": "featured-product",
+      "blocks": {
+        "template--21564629745962__fbdf8431-e867-46c3-994c-83622d027fd0-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--21564629745962__fbdf8431-e867-46c3-994c-83622d027fd0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "this is my new product",
+            "text_style": "subtitle"
+          }
+        },
+        "template--21564629745962__fbdf8431-e867-46c3-994c-83622d027fd0-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21564629745962__fbdf8431-e867-46c3-994c-83622d027fd0-title-1",
+        "template--21564629745962__fbdf8431-e867-46c3-994c-83622d027fd0-text-1",
+        "template--21564629745962__fbdf8431-e867-46c3-994c-83622d027fd0-buy_buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "new-of-adidas-t-shirts",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0cf4c9b9-e0c1-4970-a3f1-55c183759f0a": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"image-wrapper mt70 page-width\">\n  <div class=\"image-text-main\">\n  \n    <div class=\"image-content\">\n      <img src=\"\/\/missionarytomadame.com.au\/cdn\/shop\/files\/Banner_Section.png?v=1699437018\" alt=\"files\/Banner_Section.png\">\n    <\/div>\n  \n  <div class=\"content-box\">\n    \n      <h2 class=\"h2\">Your Toys Need Care Too<\/h2>\n    \n    \n      <p>Learn more about caring for your toys.<\/p>\n    \n    <div class=\"product-button\">\n      \n        <button id=\"add-to-cart-button\" class=\"btn-reverse \" data-variant-id=\"8718471495978\" fdprocessedid=\"djmzbd\">Add to Cart<\/button>\n        <a href=\"\/products\/the-wild-ride\" class=\"learn-more\">Learn More<\/a>\n      \n    <\/div>\n  <\/div>\n  <\/div>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "43be3ba8-6001-4383-bae9-25221e1a708c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21564629745962__43be3ba8-6001-4383-bae9-25221e1a708c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "added-text": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--21564629745962__43be3ba8-6001-4383-bae9-25221e1a708c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--21564629745962__43be3ba8-6001-4383-bae9-25221e1a708c-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21564629745962__43be3ba8-6001-4383-bae9-25221e1a708c-heading-1",
+        "template--21564629745962__43be3ba8-6001-4383-bae9-25221e1a708c-text-1",
+        "template--21564629745962__43be3ba8-6001-4383-bae9-25221e1a708c-buttons-1"
+      ],
+      "settings": {
+        "custom-class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "fbdf8431-e867-46c3-994c-83622d027fd0",
+    "0cf4c9b9-e0c1-4970-a3f1-55c183759f0a",
+    "43be3ba8-6001-4383-bae9-25221e1a708c"
+  ]
+}
